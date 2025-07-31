@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.png" />
+    <link href="/src/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eliminación de Cuenta - Ahorrascan</title>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto max-w-3xl px-4 py-12">
+
+        <header class="mb-10 text-center">
+            <h1 class="text-4xl font-bold text-blue-600">Ahorrascan</h1>
+            <p class="text-lg text-gray-600 mt-2">Gestión y Eliminación de Cuenta y Datos</p>
+        </header>
+
+        <main class="bg-white p-8 rounded-lg shadow-md">
+
+            <section id="proceso-eliminacion-cuenta">
+                <h2 class="text-2xl font-bold mb-4">Opción 1: Eliminar tu cuenta completa</h2>
+                <p class="mb-6 text-gray-700">Puedes eliminar tu cuenta y todos los datos asociados de forma permanente.
+                    Este proceso es <strong>irreversible</strong> y borrará toda tu información de nuestros servidores.
+                    Para ello, sigue estos pasos dentro de la app <strong>Ahorrascan</strong>:</p>
+
+                <div class="space-y-8">
+                    <div class="flex flex-col md:flex-row items-center gap-6">
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold mb-2">Paso 1: Accede a tu perfil</h3>
+                            <p>En la pantalla principal, pulsa sobre el <strong>icono de perfil</strong> en la esquina
+                                superior derecha.</p>
+                        </div>
+                        <div class="md:w-1/3 w-2/3">
+                            <img src="/receipt_a.png" alt="Pantalla principal de Ahorrascan"
+                                class="rounded-lg border shadow-sm">
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col md:flex-row items-center gap-6">
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold mb-2">Paso 2: Solicita la baja</h3>
+                            <p>En la pantalla de tu perfil, pulsa el botón rojo <strong>"Cancel Subscription"</strong>
+                                para iniciar el proceso de borrado.</p>
+                        </div>
+                        <div class="md:w-1/3 w-2/3">
+                            <img src="/receipt_b.png" alt="Pantalla de modificación de perfil"
+                                class="rounded-lg border shadow-sm">
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Paso 3: Confirmación final</h3>
+                        <p>Una ventana de confirmación aparecerá para asegurar que realmente deseas eliminar tu cuenta.
+                            Al confirmar, tu solicitud será procesada y tus datos serán eliminados.</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="my-10">
+
+            <section id="proceso-eliminacion-tickets">
+                <h2 class="text-2xl font-bold mb-4">Opción 2: Eliminar tickets de compra individuales</h2>
+                <p class="mb-6 text-gray-700">Si no deseas eliminar tu cuenta entera, pero quieres borrar recibos
+                    específicos, puedes hacerlo directamente desde el listado de "Recent Receipts".</p>
+
+                <div class="flex flex-col md:flex-row items-center gap-6">
+                    <div class="flex-1">
+                        <h3 class="text-xl font-semibold mb-2">Paso único: Borrar un ticket</h3>
+                        <p>En la lista de recibos, localiza el que deseas eliminar y pulsa en el <strong>icono de la
+                                papelera</strong> situado a la derecha. El ticket y sus datos asociados se eliminarán
+                            instantáneamente.</p>
+                    </div>
+                    <div class="md:w-1/3 w-2/3">
+                        <img src="/receipt_c.png" alt="Borrar un ticket individual"
+                            class="rounded-lg border shadow-sm">
+                    </div>
+                </div>
+            </section>
+            <hr class="my-10">
+
+            <section id="datos-eliminados">
+                <h2 class="text-2xl font-bold mb-4">Tipos de datos y periodos de retención</h2>
+                <p class="mb-4 text-gray-700">Nuestra política es de máxima transparencia y control para el usuario:</p>
+                <ul class="list-disc list-inside space-y-3 text-gray-700">
+                    <li>
+                        <strong>Al eliminar un ticket individual:</strong> Se borra inmediatamente la imagen del recibo
+                        y todos los datos extraídos de él (productos, precios, fecha). No se guarda ninguna copia.
+                    </li>
+                    <li>
+                        <strong>Al eliminar la cuenta completa:</strong> Se borran de forma permanente e inmediata todos
+                        los datos mencionados anteriormente, además de tu información de perfil (nombre, email,
+                        contraseña).
+                    </li>
+                </ul>
+                <p class="mt-4 text-sm text-gray-600">
+                    <strong>Periodo de retención:</strong> Cero. Los datos se eliminan en el momento en que lo
+                    solicitas. No retenemos datos personales de los usuarios después de una solicitud de borrado.
+                </p>
+            </section>
+
+        </main>
+
+        <footer class="text-center mt-10">
+            <p class="text-gray-600">Para más información sobre cómo gestionamos tus datos, consulta nuestras:</p>
+            <a href="/politics/" class="text-blue-600 hover:underline font-medium">Políticas de Privacidad</a>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

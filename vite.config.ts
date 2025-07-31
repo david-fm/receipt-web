@@ -13,6 +13,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         politics: resolve(__dirname, "politics/index.html"),
+        delete_account: resolve(__dirname, "delete_account/index.html")
       },
     },
   },
